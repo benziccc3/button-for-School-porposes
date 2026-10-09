@@ -16,8 +16,23 @@
         height: 35px;
         width:100px;
         border-radius: 3px;
-  
+        box-shadow: 10px 5px 10px rgb(0, 0, 0,0.15);
+        transition: box-shadow 0.3s,background-color 0.3s,opacity 0.15s,color 20s;
+
       }
+
+
+      .buton-subs:hover{
+        background-color:rgb(216, 50, 44);
+        color:black;
+        opacity: 5;
+      }
+
+      .buton-subs:active{
+        background-color:rgb(216, 50, 44);
+        opacity: 0.3;
+      }
+
 
  /* join_button */
       .buton-join{
@@ -32,6 +47,14 @@
         height: 35px;
         width:60px;
         margin-left:10px;
+        transition:0.7s
+      }
+
+      .buton-join:hover{
+
+        color:rgb(255, 253, 253);
+        background-color:rgb(23, 106, 189);
+        
       }
 
   /*tweet_button */
@@ -45,13 +68,32 @@
         border-radius: 60px;
         font-weight: bold;
         margin-left:10px;
+        transition: box-shadow 0.2s;
   
+      }
+
+      .buton-twe:hover{
+
+        box-shadow: 5px 5px 10px rgb(0, 0, 0,0.15)
+
+      }
+
+
+
+      footer {
+        bottom:0;
+        text-align:center;
+        margin:150px 0px 0px 10px;
       }
 
   </style>
 
 </head>
   <body>
+
+    <header>
+      <h1>First button in try my self !!!</h1>
+    </header>
 
 
   <main>
@@ -62,13 +104,23 @@
         <button class="buton-twe">Tweet</button>
       </sector>
 
-    <footer>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-    </footer>
-
+      
 
   </main>
 
+  
+  <footer>
+    <p>&copy; 2026 BenZiC </p>
+  </footer>
 
   </body>
 </html>
